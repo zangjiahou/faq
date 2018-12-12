@@ -12,7 +12,7 @@
 
                         <div class="card-body">
 
-                            <div class="card-deck">
+                            <div class="col-md-8">
                                 @forelse($questions as $question)
                                     <div class="col-sm-4 d-flex align-items-stretch">
                                         <div class="card mb-3 ">
