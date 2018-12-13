@@ -42,13 +42,13 @@
                                        href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
-                                    <a class="btn btn-primary float-sm-right"
+                                    <a class="btn btn-primary float-sm-left"
                                        href="{{ route('answers.vote', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
-                                        Upvote ({{$answer->upvote}})
+                                        Like ({{$answer->upvote}})
                                     </a>
-                                    <a class="btn btn-danger float-sm-right mr-2"
+                                    <a class="btn btn-danger float-sm-left mr-2"
                                        href="{{ route('answers.downvote', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
-                                        Downvote ({{$answer->downvote}})
+                                        Dislike ({{$answer->downvote}})
                                     </a>
 
                                 </div>

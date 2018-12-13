@@ -10,4 +10,4 @@
  
  
  Voting answers
- （add two buttons to vote the answer UP or DOWN in the answer page）
+ （add two buttons to vote the answer UP or DOWN in the answer page, 'aiming for a grade of B'）
